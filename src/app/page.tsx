@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -89,6 +90,32 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <a
+          href="https://youtube.com"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            YouTube <span>-&gt;</span>
+          </h2>
+          <p>
+            Whatch some YT.
+          </p>
+        </a>
+        <Link 
+          href="/about"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            About <span>-&gt;</span>
+          </h2>
+          <p>
+            Want to learn more about the Sandbox Project?
+          </p>
+        </Link>
       </div>
     </main>
   )
