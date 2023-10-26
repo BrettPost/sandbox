@@ -12,11 +12,11 @@ interface NavigationItem {
 }
 
 const navigationItems: NavigationItem[] = [
-  { id: 1, name: 'About', href: '/about', current: false },
-  { id: 2, name: 'Map', href: '/map', current: false },
-  { id: 3, name: 'Calendar', href: '/calendar', current: false },
-  { id: 4, name: 'Projects', href: '/projects', current: false },
-  { id: 5, name: 'Profile', href: '/profile', current: false }
+  { id: 1, name: 'About', href: '/pages/about', current: false },
+  { id: 2, name: 'Map', href: '/pages/map', current: false },
+  { id: 3, name: 'Calendar', href: '/pages/calendar', current: false },
+  { id: 4, name: 'Projects', href: '/pages/projects', current: false },
+  { id: 5, name: 'Profile', href: '/pages/profile', current: false }
 ]
 
 const userNavigation = [
